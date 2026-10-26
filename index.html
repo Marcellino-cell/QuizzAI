@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="EduGen AI — website rangkuman dan media pembelajaran interaktif tentang Generative AI untuk pengembangan media pembelajaran.">
+  <title>EduGen AI — Learning Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#beranda" aria-label="EduGen AI, ke beranda">
+      <span class="brand-mark" aria-hidden="true"><span>✳</span></span>
+      <span class="brand-word">EduGen<span class="brand-accent">AI</span><small>LEARNING HUB <i></i> V1.0</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navigasi utama">
+      <a class="nav-link active" href="#beranda">Beranda</a>
+      <a class="nav-link" href="#materi">Materi</a>
+      <a class="nav-link" href="#latihan">Kuis</a>
+      <a class="nav-link" href="#proyek">Proyek Akhir</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Aktifkan mode terang" title="Ganti tema"><span id="themeIcon" aria-hidden="true">☾</span></button>
+      <button class="icon-btn menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Buka menu"><span aria-hidden="true">☰</span></button>
+      <a class="btn btn-primary btn-small header-cta" href="#materi">Mulai Belajar <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Navigasi seluler" hidden>
+    <a href="#beranda">Beranda</a><a href="#materi">Materi</a><a href="#latihan">Kuis</a><a href="#proyek">Proyek Akhir</a>
+  </nav>
+
+  <main id="main-content">
+    <section class="hero section-wrap" id="beranda">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> DIGITAL LEARNING / GENERATIVE AI</div>
+        <h1>Upgrade cara belajarmu dengan <span class="gradient-text">Generative AI.</span></h1>
+        <p class="hero-description">Pelajari konsep AI generatif, rancang media pembelajaran yang efektif, dan uji pemahamanmu melalui pengalaman belajar interaktif dalam satu website.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#materi">Eksplor Materi <span aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="#latihan"><span class="play-icon" aria-hidden="true">▶</span> Coba Kuis</a>
+        </div>
+        <div class="hero-metrics" aria-label="Ringkasan website">
+          <div><strong>06</strong><span>Modul terstruktur</span></div>
+          <div><strong>10</strong><span>Soal interaktif</span></div>
+          <div><strong>24/7</strong><span>Belajar mandiri</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Ilustrasi antarmuka pembelajaran digital">
+        <div class="visual-grid" aria-hidden="true"></div>
+        <div class="orbit orbit-outer" aria-hidden="true"></div><div class="orbit orbit-inner" aria-hidden="true"></div>
+        <div class="core-card"><div class="core-top"><span class="core-dot"></span><span class="core-dot"></span><span class="core-dot"></span><span class="core-label">AI CORE / 001</span></div><div class="core-symbol" aria-hidden="true">✳</div><div class="core-title">LEARN<span>_SMARTER</span></div><div class="core-line"></div><div class="core-foot"><span>KNOWLEDGE SYSTEM</span><strong>ONLINE <i></i></strong></div></div>
+        <div class="floating-chip chip-top"><span class="chip-icon">⌘</span><span><strong>AI ASSISTED</strong><small>Materi terstruktur</small></span></div>
+        <div class="floating-chip chip-bottom"><span class="chip-check">✓</span><span><strong>Progress saved</strong><small>Lanjutkan kapan saja</small></span></div>
+        <span class="visual-code code-one" aria-hidden="true">01 / THINK</span><span class="visual-code code-two" aria-hidden="true">0101 : LEARN</span>
+      </div>
+    </section>
+
+    <section class="section-wrap value-grid" aria-label="Keunggulan website">
+      <article class="value-card"><span class="value-icon purple" aria-hidden="true">▤</span><div><h2>Materi Ringkas</h2><p>Enam modul dari konsep dasar sampai etika penggunaan AI.</p></div><span class="value-number">01</span></article>
+      <article class="value-card"><span class="value-icon cyan" aria-hidden="true">⌁</span><div><h2>Belajar Aktif</h2><p>Baca materi, cari topik, dan jawab kuis dengan pembahasan.</p></div><span class="value-number">02</span></article>
+      <article class="value-card"><span class="value-icon green" aria-hidden="true">◷</span><div><h2>Progres Tersimpan</h2><p>Status belajar tersimpan pada browser perangkatmu.</p></div><span class="value-number">03</span></article>
+    </section>
+
+    <section class="section-wrap content-section" id="materi">
+      <div class="section-heading">
+        <div><span class="section-kicker">01 / KNOWLEDGE BASE</span><h2>Rangkuman <span class="gradient-text">Materi.</span></h2><p>Pilih modul untuk membuka penjelasan, poin penting, dan contoh penerapannya.</p></div>
+        <div class="progress-panel" aria-label="Progres belajar"><div class="progress-heading"><span>PROGRES BELAJAR</span><strong id="progressLabel">0/6 modul</strong></div><div class="progress-track"><div id="moduleProgress"></div></div><div class="progress-foot"><small id="progressPercent">0% selesai</small><button id="resetProgress" class="text-button" type="button" title="Hapus progres belajar">Reset</button></div></div>
+      </div>
+      <div class="module-tools">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Cari modul, konsep, atau kata kunci..." aria-label="Cari modul"></label>
+        <div class="filter-group" role="group" aria-label="Filter modul">
+          <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">Semua <span id="allCount">6</span></button>
+          <button type="button" class="filter-btn" data-filter="todo" aria-pressed="false">Belum selesai</button>
+          <button type="button" class="filter-btn" data-filter="done" aria-pressed="false">Selesai <span id="doneCount">0</span></button>
+        </div>
+      </div>
+      <div class="module-results"><span id="moduleCount">6 modul tersedia</span><span class="results-hint">Pilih kartu untuk mulai membaca <span aria-hidden="true">↘</span></span></div>
+      <div class="module-grid" id="moduleGrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden><span aria-hidden="true">⌕</span><h3>Modul tidak ditemukan</h3><p>Coba kata kunci lain atau ubah filter pencarianmu.</p><button class="btn btn-ghost" id="clearSearch" type="button">Reset pencarian</button></div>
+    </section>
+
+    <section class="section-wrap method-section" id="panduan">
+      <div class="method-copy"><span class="section-kicker">02 / LEARNING FLOW</span><h2>Belajar dengan alur yang <span class="gradient-text">jelas.</span></h2><p>Mulai dari memahami konsep, lanjutkan dengan evaluasi, lalu perbaiki pemahaman berdasarkan hasil latihan.</p>
+        <div class="method-steps"><article><span>01</span><div><h3>Eksplorasi</h3><p>Buka modul dan pahami ide utamanya dengan contoh.</p></div><span class="step-status">READ</span></article><article><span>02</span><div><h3>Rekam progres</h3><p>Tandai modul yang selesai untuk melihat progres belajar.</p></div><span class="step-status">SAVE</span></article><article><span>03</span><div><h3>Evaluasi diri</h3><p>Kerjakan kuis dan baca pembahasan setiap jawaban.</p></div><span class="step-status">CHECK</span></article></div>
+      </div>
+      <div class="terminal-panel"><div class="terminal-bar"><div><i></i><i></i><i></i></div><span>edugen_terminal.exe</span><span class="terminal-live"><b></b> LIVE</span></div><div class="terminal-body"><p class="terminal-muted">// YOUR LEARNING WORKSPACE</p><p><span class="terminal-prompt">user@edugen:~$</span> initialize_learning()</p><p class="terminal-success">✓ Knowledge modules loaded</p><p class="terminal-success">✓ Interactive quiz available</p><p class="terminal-success">✓ Local progress storage ready</p><p><span class="terminal-prompt">user@edugen:~$</span> <span class="terminal-cursor">_</span></p><div class="terminal-stats"><div><small>MODULES</small><strong>06</strong></div><div><small>QUIZ ITEMS</small><strong>10</strong></div><div><small>STATUS</small><strong class="online-status">READY</strong></div></div></div></div>
+    </section>
+
+    <section class="section-wrap content-section quiz-section" id="latihan">
+      <div class="section-heading"><div><span class="section-kicker">03 / SELF ASSESSMENT</span><h2>Kuis <span class="gradient-text">Interaktif.</span></h2><p>Jawab sepuluh pertanyaan. Hasil dan pembahasan akan muncul setelah kuis selesai.</p></div><div class="quiz-summary"><span aria-hidden="true">◎</span><div><strong>10 Pertanyaan</strong><small>Pilihan ganda · Pembahasan otomatis</small></div></div></div>
+      <div class="quiz-card" id="quizRoot"><div class="quiz-welcome"><div class="quiz-start-icon" aria-hidden="true">?</div><span class="section-kicker">READY WHEN YOU ARE</span><h3>Siap menguji pemahamanmu?</h3><p>Kerjakan kuis berdasarkan rangkuman materi Generative AI. Kamu akan mendapat skor dan ulasan jawaban di akhir sesi.</p><div class="quiz-details"><span>◷ ± 5–10 menit</span><span>✓ Bisa diulang</span><span>▤ 10 soal</span></div><button class="btn btn-primary" id="startQuiz" type="button">Mulai Kuis <span aria-hidden="true">→</span></button></div></div>
+      <div class="quiz-history" id="quizHistory" hidden></div>
+    </section>
+
+    <section class="section-wrap project-section" id="proyek">
+      <div class="project-banner"><div class="project-content"><span class="section-kicker">04 / FINAL PROJECT</span><h2>Media pembelajaran yang dirancang untuk <span class="gradient-text">belajar mandiri.</span></h2><p>EduGen AI adalah contoh website edukasi interaktif yang menggabungkan rangkuman materi, navigasi responsif, progres belajar, dan evaluasi mandiri.</p><a class="btn btn-primary" href="#detail-proyek">Jelajahi detail proyek <span aria-hidden="true">↗</span></a></div><div class="project-visual" aria-hidden="true"><div class="project-orbit"></div><div class="project-monogram">E<span>AI</span></div><div class="project-caption">EDUGEN / LEARNING SYSTEM</div></div></div>
+      <div class="project-details" id="detail-proyek"><div class="details-heading"><div><span class="section-kicker">PROJECT SPECIFICATION</span><h3>Informasi Proyek Akhir</h3></div><span class="spec-tag">EDU / 2026</span></div><div class="details-grid">
+        <article><small>01 / JUDUL MEDIA</small><strong>EduGen AI — Rangkuman Materi Interaktif</strong></article><article><small>02 / TOPIK</small><strong>Generative AI untuk Pengembangan Media Pembelajaran</strong></article><article><small>03 / TARGET PENGGUNA</small><strong>Siswa, mahasiswa, guru, dan pemula</strong></article><article><small>04 / TUJUAN PEMBELAJARAN</small><strong>Memahami konsep, penerapan, dan evaluasi Generative AI secara bertanggung jawab</strong></article><article><small>05 / MEDIA DIKEMBANGKAN</small><strong>Website edukasi responsif dengan materi dan kuis</strong></article><article><small>06 / AI DIGUNAKAN</small><strong>ChatGPT sebagai asisten perancangan materi dan kode</strong></article><article><small>07 / PRODUK</small><strong>Website EduGen AI</strong></article><article><small>08 / CARA MENGGUNAKAN</small><strong>Pilih modul, baca, tandai selesai, lalu kerjakan kuis</strong></article>
+      </div>
+      <section class="sources-panel" aria-labelledby="sourcesTitle">
+        <div class="sources-heading"><div><span class="section-kicker">REFERENSI / KNOWLEDGE CHECK</span><h3 id="sourcesTitle">Sumber &amp; Validasi Materi</h3></div><span class="sources-badge">3 RUJUKAN</span></div>
+        <p class="sources-intro">Ringkasan disusun untuk pembelajaran awal. Gunakan sumber berikut untuk memeriksa kembali prinsip AI yang berpusat pada manusia, kompetensi AI, dan pengelolaan risiko.</p>
+        <div class="sources-grid">
+          <a class="source-card" href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research" target="_blank" rel="noopener noreferrer"><span class="source-index">SOURCE / 01</span><strong>Guidance for Generative AI in Education and Research</strong><span class="source-publisher">UNESCO · 2023</span><span class="source-link">Buka sumber <span aria-hidden="true">↗</span></span></a>
+          <a class="source-card" href="https://www.unesco.org/en/articles/ai-competency-framework-students" target="_blank" rel="noopener noreferrer"><span class="source-index">SOURCE / 02</span><strong>AI Competency Framework for Students</strong><span class="source-publisher">UNESCO · 2024</span><span class="source-link">Buka sumber <span aria-hidden="true">↗</span></span></a>
+          <a class="source-card" href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer"><span class="source-index">SOURCE / 03</span><strong>AI Risk Management Framework: Generative AI Profile</strong><span class="source-publisher">NIST · 2024</span><span class="source-link">Buka sumber <span aria-hidden="true">↗</span></span></a>
+        </div>
+      </section>
+      <p class="project-note"><span aria-hidden="true">ⓘ</span><span>Catatan akademik: materi yang dibantu AI harus ditinjau kembali oleh pendidik, diverifikasi dengan sumber tepercaya, dan disesuaikan dengan kurikulum serta kebutuhan peserta didik.</span></p></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-main"><a class="brand" href="#beranda"><span class="brand-mark" aria-hidden="true"><span>✳</span></span><span class="brand-word">EduGen<span class="brand-accent">AI</span><small>LEARNING HUB <i></i> V1.0</small></span></a><div class="footer-description"><p>Media pembelajaran interaktif untuk memahami Generative AI secara terarah dan bertanggung jawab.</p></div><div class="footer-links"><a href="#beranda">Beranda</a><a href="#materi">Materi</a><a href="#latihan">Kuis</a><a href="#proyek">Proyek</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> EduGen AI · Media pembelajaran</span><span>DESIGNED TO HELP YOU LEARN <span class="footer-spark">✳</span></span></div></footer>
+
+  <dialog class="lesson-dialog" id="lessonDialog" aria-labelledby="dialogTitle"><div class="dialog-header"><div><span class="dialog-label" id="dialogLabel">MODUL 01 / 06</span><span class="dialog-mini-label">LEARNING MODULE</span></div><button class="icon-btn close-dialog" id="closeDialog" type="button" aria-label="Tutup materi">✕</button></div><div class="dialog-scroll" id="dialogScroll"><div class="dialog-icon" id="dialogIcon" aria-hidden="true">✧</div><h2 id="dialogTitle"></h2><p class="dialog-intro" id="dialogIntro"></p><div class="dialog-body" id="dialogBody"></div></div><div class="dialog-footer"><button class="btn btn-ghost" id="prevModule" type="button">← Sebelumnya</button><button class="btn btn-primary" id="completeModule" type="button">✓ Tandai Selesai</button><button class="btn btn-ghost" id="nextModule" type="button">Selanjutnya →</button></div></dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Kembali ke atas" title="Kembali ke atas">↑</button>
+</body>
+</html>
